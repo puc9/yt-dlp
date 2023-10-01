@@ -3003,7 +3003,7 @@ def get_compatible_ext(*, vcodecs, acodecs, vexts, aexts, preferences=None):
     COMPATIBLE_CODECS = {
         'mp4': {
             'av1', 'hevc', 'avc1', 'mp4a', 'ac-4',  # fourcc (m3u8, mpd)
-            'h264', 'aacl', 'ec-3',  # Set in ISM
+            'h264', 'aacl', 'ec-3', 'opus',  # Set in ISM
         },
         'webm': {
             'av1', 'vp9', 'vp8', 'opus', 'vrbs',
